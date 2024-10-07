@@ -9,7 +9,8 @@ load_dotenv()
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 # GEMINI_MODEL_PATH = BASE_DIR / 'gemini_model.pkl'
-GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')
+# OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
+HUGGINGFACE_API_KEY = os.getenv('HUGGINGFACE_API_KEY')
 
 
 
